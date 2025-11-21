@@ -1,10 +1,10 @@
 # Index
-1. [Practical 2 – 8 Queens Problem](#practical-2--8-queens-problem)
-2. [Practical 3 – Depth First Search](#practical-3--depth-first-search)
-3. [Practical 4 – Best First Search](#practical-4--best-first-search)
-4. [Practical 5 – 8-puzzle-problem-using-best-first-search-a](#practical-5--8-puzzle-problem-using-best-first-search-a)
-5. [Practical 6 – Means-End Analysis](#practical-6--robot-traversal-using-means-end-analysis)
-6. [Practical 7 – Traveling Salesman Problem](#practical-7--traveling-salesman-problem)
+1. [Practical 2 – 8 Queens Problem](#practical2)
+2. [Practical 3 – Depth First Search](#practical3)
+3. [Practical 4 – Best First Search](#practical4)
+4. [Practical 5 – 8 Puzzle Problem](#practical5)
+5. [Practical 6 – Means-End Analysis](#practical6)
+6. [Practical 7 – Traveling Salesman Problem](#practical7)--traveling-salesman-problem)
 
 # Artificial Intelligence Practicals (Python Version)
 
@@ -13,7 +13,6 @@
 
 ---
 
-<a id="practical2"></a>
 <a id="practical2"></a>
 ## 🧩 **Practical 2: 8 Queens Problem (Backtracking)**
 ```python
@@ -50,7 +49,6 @@ solve_queens(board, 0)
 
 ---
 
-<a id="practical3"></a>
 <a id="practical3"></a>
 ## 🌲 **Practical 3: Depth First Search (DFS)**
 ```python
@@ -90,7 +88,6 @@ print(f"Path found from {start_node} to {goal_node}: {path}")
 
 ---
 
-<a id="practical4"></a>
 <a id="practical4"></a>
 ## 🧭 **Practical 4: Best First Search**
 ```python
@@ -133,7 +130,6 @@ print(f"Best-First path from {start} to {goal}: {path}")
 
 ---
 
-<a id="practical5"></a>
 <a id="practical5"></a>
 ## 🧩 **Practical 5: 8-Puzzle Problem using Best First Search (A*)**
 ```python
@@ -209,7 +205,6 @@ for step in path:
 ---
 
 <a id="practical6"></a>
-<a id="practical6"></a>
 ## 🤖 **Practical 6: Robot Traversal using Means-End Analysis**
 ```python
 def means_end_analysis(start, goal):
@@ -228,7 +223,6 @@ print(f"Robot traversal path: {means_end_analysis(start, goal)}")
 
 ---
 
-<a id="practical7"></a>
 <a id="practical7"></a>
 ## 🚗 **Practical 7: Traveling Salesman Problem (Brute Force)**
 ```python
